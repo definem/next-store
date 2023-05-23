@@ -155,4 +155,18 @@ header {
   font-size: 16px !important;
 }
 
+.category__btn {
+  height: 50px;
+}
+
+.category__btn p {
+  margin: 12px;
+}
+
+/* ----CATEGORIES SECTION-END---- */
+
+/* ----TOP-SALES SECTION-START---- */
+
+/* start */
+
 /* ----CATEGORIES SECTION-END---- */
