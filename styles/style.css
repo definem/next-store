@@ -119,3 +119,40 @@ header {
 /* ----INTRO SECTION-END---- */
 
 /* ----CATEGORIES SECTION-START---- */
+
+#category {
+  padding-top: 40px;
+}
+
+.category__slide {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.category__slide .card {
+  text-align: center;
+  width: 136px;
+  height: 200px;
+  border: none !important;
+  border-radius: 10px;
+}
+
+.category__slide .card .card-img {
+  object-fit: contain;
+  transform: scale();
+  transition: all 0.04s ease;
+  width: 136px;
+  height: 136px;
+}
+
+.category__slide .card .card-img:hover {
+  transform: scale(0.9);
+}
+
+.category__slide .card p {
+  padding: 10px;
+  font-size: 16px !important;
+}
+
+/* ----CATEGORIES SECTION-END---- */
